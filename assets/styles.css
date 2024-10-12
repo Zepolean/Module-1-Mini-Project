@@ -21,6 +21,7 @@ button {
 
 footer {
     background-color: #B3FFB3;
+    border-top: solid 5px #B3D9FF;
     bottom: -1000px;
     margin: 80px -8px;
     padding: 10px 0 30px;
