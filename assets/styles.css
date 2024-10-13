@@ -2,17 +2,16 @@
     font-family: "Oldenburg", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a {
+.aNav {
     color: black;
     text-decoration: none;
   }
 
-a:hover {
+.aNav:hover {
     color: #B3FFB3;
     text-shadow: 1px 1px 1px black;
 }
-
-button {
+#fButton {
     font-size: 20px;
     left: 28px;
     margin-top: 15px;
@@ -25,9 +24,10 @@ footer {
     bottom: -1000px;
     margin: 80px -8px;
     padding: 10px 0 30px;
-    position: relative;
+    position: absolute;
     text-align: center;
-}
+    width: 100%;
+  }
 
 h1 {
     bottom: 30px;
@@ -59,18 +59,18 @@ main {
     text-align: center;
     top: 100px;
     z-index: -1;
+    height: auto;
 }
 
 
 nav {
+    /* border: solid green 2px; */
     bottom: 145px;
     display: inline;
     float: right;
     font-size: 30px;
     position: relative;
     right: 10px;
-
-    /* border: solid green 2px; */
 }
 
 p {
@@ -80,11 +80,11 @@ p {
   }
 
 .navLinks {
+    /* border: solid blue 2px; */
     display: inline-block;
     margin-right: 50px;
-
-    /* border: solid blue 2px; */
 }
+
 
 /* #navUl {
     border: solid red 2px;
@@ -102,21 +102,8 @@ p {
 }
 
 #footerInput {
+    /* border: solid brown 2px; */
     display: block;
     position: relative;
     right: 50px;
-
-    /* border: solid brown 2px; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
