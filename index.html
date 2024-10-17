@@ -14,32 +14,33 @@
     <header>
         <h1>Brandon Lopez</h1>
         <nav>
-            <ul id="navUl">
-                <li class="navLinks"><a href="#github" class="aNav">GitHub</li>
-                <li class="navLinks"><a href="#portfolio" class="aNav">Portfolio</li>
-                <li class="navLinks"><a href="#contact" class="aNav">Contact</a></li>
-            </ul>
+            <a href="#github">GitHub</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
     <main>
-        <h2>Welcome to my Website!</h2>
-        <section>
-            <img src="./assets/image-1.png" alt="Placeholder IMG">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Quis minima unde libero molestiae animi consequuntur ab 
-                obcaecati aliquid inventore cumque illum possimus eaque
-                officia quibusdam, quas, enim aperiam provident veritatis.
-            </p>
+        <section id="hero">
+            <h2>Welcome to my Website!</h2>
+                <img src="./assets/image-1.png" alt="Placeholder IMG">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Quis minima unde libero molestiae animi consequuntur ab 
+                    obcaecati aliquid inventore cumque illum possimus eaque
+                    officia quibusdam, quas, enim aperiam provident veritatis.
+                </p>
         </section>
     </main>
 
     <footer>
-        <h2 id="contact">Contact Me!</h2>
-        <ul id="footerInput">
-            <li class="fLinks">Name: <input type="text"/></li>
-            <li class="fLinks" id="fEm">Email: <input type="email"/></li>
-            <button id="fButton">Send</button></li>
+        <section>
+            <h2 id="contact">Contact Me!</h2>
+            <form action="">
+                <label for="name">Name: </label><input type="text" id="name"/>
+                <label for="email">Email: </label><input type="email" id="email"/>
+            </form>
+            <button>Send</button>
         </section>
     </ul>
 
