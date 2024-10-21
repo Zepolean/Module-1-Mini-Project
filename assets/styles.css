@@ -1,11 +1,13 @@
 * {
+    box-sizing: border-box;
     font-family: "Oldenburg", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
+    /* border: solid rgb(111, 0, 255); */
+    border-bottom: solid #B3D9FF 5px;
     background-color: #B3FFB3;
     padding: 1rem;
-    border: solid rgb(111, 0, 255);
     position: sticky;
     top: 0;
 }
@@ -19,9 +21,9 @@ main {
 }
 
 h1 {
+    /* border: solid red; */
     color: black;
     font-size: 55px;
-    border: solid red;
     display: flex;
     margin: 0;
 }
@@ -33,18 +35,29 @@ h2 {
 header {
     display: flex;
     justify-content: space-between;
-    border: solid rgb(0, 4, 255);
+    /* border: solid rgb(0, 4, 255); */
 }
 
 header nav {
-    border: solid green;
+    /* border: solid green; */
     font-size: 2rem;
     position: relative;
     top: 1rem;
 }
 header nav a {
     padding: 0 1.5rem;
+    text-decoration: none;
+    color: black;
 }
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* header nav a:active, a:focus {
+    
+} */
+
 
 #hero {
     display: flex;
@@ -56,9 +69,32 @@ header nav a {
     max-width: 25%;
 }
 
-footer section {
+footer {
     display: sticky;
     background-color: #B3FFB3;
-    border-top: solid 5px #B3D9FF;
+    border-top: solid #B3D9FF 5px;
     width: 100%;
+    height: 20vh;
   }
+
+footer section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+footer form div {
+    margin-bottom: 1rem;
+}
+
+footer button {
+    font-size: 18px;
+}
+
+#email {
+    position: relative;
+    left: 3px;
+}
+
